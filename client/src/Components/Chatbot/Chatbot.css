@@ -15,13 +15,14 @@
     padding: 5px 10px;
     width: fit-content;
     margin-bottom: 7px;
+    color: #000
 }
 
-.query {
+.user {
     background-color: rgb(190, 190, 190);
 }
 
-.res {
+.bot {
     background-color: blanchedalmond;
 }
 
