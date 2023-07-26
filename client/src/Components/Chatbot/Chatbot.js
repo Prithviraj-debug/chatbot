@@ -26,7 +26,7 @@ const Chatbot = () => {
     setIsTyping(true);
 
     // Send the user's message to the OpenAI API
-    const response = await axios.post('http://localhost:3000/chat', {
+    const response = await axios.post('https://ai-chatbot-o4og.onrender.com/chat', {
       message: input,
     })
 
